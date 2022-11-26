@@ -1,0 +1,7 @@
+  <h2>Angular Life Cycle Events Example</h2>
+    <div>
+      <input type='button' (click)='toggleUserDetails()' value='{{btnText}} User Details'>
+    </div>
+    <div *ngIf='showUserDetails'>
+      <userdetails></userdetails>
+    </div>
